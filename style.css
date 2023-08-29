@@ -1,49 +1,98 @@
-*{
-    padding: 0%;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    text-decoration: none;
-    list-style: none;
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
 }
-#header{
-    display: flex;
-    justify-content: center;
-    max-width: 1920px;
-    height: 850px;
-    background-color: #e5b3be;
+#header {
+  display: flex;
+  justify-content: center;
+  max-width: 1920px;
+  height: 850px;
+  background-color: #e5b3be;
 }
-.header-section{
-    width: 90%;
-    display: flex;
-    align-items: center;
+.header-section {
+  width: 90%;
+  display: flex;
+  align-items: center;
 }
-.header-info{
-    width: 50%;
+.header-info {
+  width: 50%;
 }
-.header-info h1{
-    font-size: 80px;
-    font-weight: 800;
-    margin-bottom: 30px;
+.header-info h1 {
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 30px;
 }
-.header-info p{
-    font-size: 18px;
+.header-info p {
+  font-size: 18px;
 }
-.header-info button{
-    padding: 20px 40px;
-    border-radius: 5px;
-    border: none;
-    background-color: #E55473;
-    margin-top: 30px;
-    color: white;
+.header-info button {
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e55473;
+  margin-top: 30px;
+  color: white;
 }
-.header-image{
-    width: 50%;
-    display: flex;
-    justify-content: center;
+.header-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.header-image img {
+  width: 635px;
+  height: 800px;
+}
 
+/* features styles */
+.feature-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 178px 0 50px 0;
+  text-align: center;
+  gap: 10px;
 }
-.header-image img{
-    width: 635px;
-    height: 800px;
+.feature-info h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.feature-boxes {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+}
+.feature-box {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feature-box img {
+  width: 95%;
+  height: 500px;
+  padding: 50px 50px 0 50px;
+}
+.pink-flower {
+  background-color: #bc93a7;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+}
+.red-flower {
+  background-color: #c7e2e3;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+}
+.yellow-flower {
+  background-color: #bdd3a8;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+}
+.feature-box p{
+    margin-top: 10px;
+    text-decoration: underline;
 }
