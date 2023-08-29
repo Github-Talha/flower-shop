@@ -29,7 +29,7 @@
 .header-info p {
   font-size: 18px;
 }
-.header-info button {
+.header-info button,.hot-deal-info button {
   padding: 20px 40px;
   border-radius: 5px;
   border: none;
@@ -95,4 +95,63 @@
 .feature-box p{
     margin-top: 10px;
     text-decoration: underline;
+}
+
+/* hot deal section styles  */
+.hot-deal-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8e3e8;
+    width: 100%;
+    height: 600px;
+    margin-top: 150px;
+}
+.hot-deal{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hot-deal-info{
+    text-align: center;
+}
+.hot-deal-info h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight:800;
+}
+.hot-deal-info span{
+    color: red;
+}
+
+/* instagram section styles  */
+.instagram-info{
+    text-align: center;
+    margin: 130px 0 50px 0;
+
+}
+.instagram-info h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.instagram-images{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.instagram-images img{
+    width: 100%;
+}
+.input-section{
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
