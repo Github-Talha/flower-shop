@@ -29,7 +29,8 @@
 .header-info p {
   font-size: 18px;
 }
-.header-info button,.hot-deal-info button {
+.header-info button,
+.hot-deal-info button {
   padding: 20px 40px;
   border-radius: 5px;
   border: none;
@@ -79,79 +80,193 @@
 }
 .pink-flower {
   background-color: #bc93a7;
-  border-top-left-radius: 45%;
-  border-top-right-radius: 45%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 .red-flower {
   background-color: #c7e2e3;
-  border-top-left-radius: 45%;
-  border-top-right-radius: 45%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
 .yellow-flower {
   background-color: #bdd3a8;
-  border-top-left-radius: 45%;
-  border-top-right-radius: 45%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
 }
-.feature-box p{
-    margin-top: 10px;
-    text-decoration: underline;
+.feature-box p {
+  margin-top: 10px;
+  text-decoration: underline;
 }
 
 /* hot deal section styles  */
-.hot-deal-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f8e3e8;
-    width: 100%;
-    height: 600px;
-    margin-top: 150px;
+.hot-deal-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8e3e8;
+  width: 100%;
+  height: 600px;
+  margin-top: 150px;
 }
-.hot-deal{
-    width: 90%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.hot-deal {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.hot-deal-info{
-    text-align: center;
+.hot-deal-info {
+  text-align: center;
 }
-.hot-deal-info h1{
-    margin-bottom: 30px;
-    font-size: 40px;
-    font-weight:800;
+.hot-deal-info h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 800;
 }
-.hot-deal-info span{
-    color: red;
+.hot-deal-info span {
+  color: red;
 }
 
 /* instagram section styles  */
-.instagram-info{
-    text-align: center;
-    margin: 130px 0 50px 0;
+.instagram-info {
+  text-align: center;
+  margin: 130px 0 50px 0;
+}
+.instagram-info h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.instagram-images {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.instagram-images img {
+  width: 100%;
+}
+/* selling cards styles  */
+.flower-selling-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 150px;
+}
 
+.selling-info{
+  text-align: center;
 }
-.instagram-info h1{
-    margin-bottom: 30px;
-    font-size: 40px;
-    font-weight: 800;
-
+.selling-info h1{
+  font-size: 40px;
+  font-weight: 700;
 }
-.instagram-images{
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
+.selling-info p{
+  margin: 30px 0;
 }
-.instagram-images img{
-    width: 100%;
+.selling-cards {
+  display: flex;
 }
-.input-section{
-    width: 90%;
-    height: 450px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+.selling-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+  height: 400px;
+  border-radius: 5px;
+  text-align: center;
+}
+.selling-card button{
+  padding: 20px 30px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #e55473;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.selling-card button:hover{
+  background-color: white;
+  color: #e55473;
+  transition: 0.5s;
+}
+.selling-card p{
+  margin: 10px;
+  padding: 5px;
+  background-color: #f1839b;
+  color: white;
+  border-radius: 5px;
+}
+#selling-card-1{
+  background-image: url(./selling-picture-1.jpeg);
+  background-size: cover;
+}
+#selling-card-2{
+  background-image: url(./selling-picture-2.jpeg);
+  background-size: cover;
+}
+#selling-card-3{
+  background-image: url(./selling-picture-3.jpeg);
+  background-size: cover;
+}
+#selling-card-4{
+  background-image: url(./selling-picture-4.jpeg);
+  background-size: cover;
+}
+/* input styles  */
+.input-section {
+  width: 90%;
+  height: 450px;
+  margin: 128px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(./background.png);
+  background-size: cover;
+}
+.input-info h1 {
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.input-box {
+  margin-top: 30px;
+}
+.input-box input {
+  width: 700px;
+  padding: 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.input-box button {
+  padding: 25px 40px;
+  background-color: #e55473;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+/* footer styles  */
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+.footer {
+  color: white;
+  text-align: center;
+}
+.footer h1 span {
+  color: #e55473;
+}
+.footer p {
+  margin: 30px 0;
 }
